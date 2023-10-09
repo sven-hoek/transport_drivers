@@ -40,8 +40,7 @@ SerialPort::SerialPort(
 
 SerialPort::~SerialPort()
 {
-  if (is_open())
-  {
+  if (is_open()) {
     close();
   }
 }
